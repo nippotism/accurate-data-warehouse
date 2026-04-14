@@ -1,0 +1,11 @@
+dbt_accurate:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: postgres
+      port: 5432
+      dbname: accurate-db
+      schema: public
