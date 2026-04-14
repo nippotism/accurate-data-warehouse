@@ -61,7 +61,7 @@ This project implements a **modern ELT pipeline**:
 
 ### Architecture Diagram
 
-![Architecture Diagram]<img width="1616" height="640" alt="Accurate ELT Architecture" src="https://github.com/user-attachments/assets/54c813e6-9f63-4083-bb78-13d32ba7e9ae" />
+<img width="1616" height="640" alt="Accurate ELT Architecture" src="https://github.com/user-attachments/assets/54c813e6-9f63-4083-bb78-13d32ba7e9ae" />
 
 
 ---
@@ -103,9 +103,9 @@ This project implements a **modern ELT pipeline**:
 
 ---
 
-### ⭐ Data Modeling (Star Schema)
+### Data Modeling (Star Schema)
 
-![Data Model]<img width="1609" height="1014" alt="DW Star Accurate Sales Detail Grain" src="https://github.com/user-attachments/assets/9e040157-a89b-419e-8230-7f9bf78b0c24" />
+<img width="1609" height="1014" alt="DW Star Accurate Sales Detail Grain" src="https://github.com/user-attachments/assets/9e040157-a89b-419e-8230-7f9bf78b0c24" />
 
 
 #### Fact Table:
@@ -124,6 +124,12 @@ This structure enables:
 - Clear business logic
 
 ---
+
+### Data Visualization
+
+-  Customer Deep Down
+<img width="1124" height="634" alt="Dasborad" src="https://github.com/user-attachments/assets/cb554849-497a-4b9d-b104-d27bf3bde94a" />
+
 
 ## 3. How to Run (Step-by-Step)
 
