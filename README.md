@@ -19,6 +19,9 @@ The goal is to transform raw transactional data into **analytics-ready datasets*
 ### What is Accurate?
 Accurate is an accounting and transaction recording system used to manage business operations such as sales, inventory, and financial transactions.
 
+<img width="1000" height="552" alt="image" src="https://github.com/user-attachments/assets/d85c39fa-0342-4d6d-8d0e-fa82064276c6" />
+
+
 ### Problem
 While Accurate is powerful for operational use, it has limitations:
 - ❌ Limited flexibility for advanced analytics
@@ -58,7 +61,8 @@ This project implements a **modern ELT pipeline**:
 
 ### Architecture Diagram
 
-![Architecture Diagram](docs/architecture.png)
+![Architecture Diagram]<img width="1616" height="640" alt="Accurate ELT Architecture" src="https://github.com/user-attachments/assets/54c813e6-9f63-4083-bb78-13d32ba7e9ae" />
+
 
 ---
 
@@ -101,7 +105,8 @@ This project implements a **modern ELT pipeline**:
 
 ### ⭐ Data Modeling (Star Schema)
 
-![Data Model](docs/data_model.png)
+![Data Model]<img width="1609" height="1014" alt="DW Star Accurate Sales Detail Grain" src="https://github.com/user-attachments/assets/9e040157-a89b-419e-8230-7f9bf78b0c24" />
+
 
 #### Fact Table:
 - `fact_sales`
