@@ -1,4 +1,4 @@
-#  Data Engineering Project: Accurate Data Warehouse (DWH)
+#  Data Engineering Project: Accurate Data Warehouse
 
 ![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
 ![dbt](https://img.shields.io/badge/dbt-Transformation-orange)
@@ -69,7 +69,8 @@ This project implements a **modern ELT pipeline**:
 ### 🔄 Pipeline Flow (ELT)
 
 1. **Extract**
-   - Data is pulled from Accurate API
+   - Data is pulled from Accurate API,  
+   Documentation : https://app.swaggerhub.com/apis/cpssoft/accurate-online_public_api/
 
 2. **Load (EL)**
    - Raw data is stored in PostgreSQL (`raw` schema)
