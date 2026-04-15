@@ -90,5 +90,5 @@ class OAuthHandler(BaseHTTPRequestHandler):
 
 if __name__ == "__main__":
     print("OAuth bootstrap server running at http://localhost:3000")
-    print("Open http://localhost:3000/login to start OAuth login")
+    print("Open http://localhost:3000 to start OAuth login")
     HTTPServer(("", 3000), OAuthHandler).serve_forever()
